@@ -1,0 +1,25 @@
+@import '../../css/variables.scss';
+
+.cell {
+    // background-color: #000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.avatar {
+    width: 100%;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+}
+
+.name {
+    margin: 0rem 0 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}

@@ -1,0 +1,32 @@
+@import "../../css/variables.scss";
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+  
+.icon {
+    position: absolute;
+}
+
+
+.input {
+    padding-left: 2.1rem;
+    border: 0.3rem solid $black;
+    border-radius: 1.8rem;
+    font-size: 1.6rem;
+    width: 17rem;
+}
+
+.glass {
+    height: 1.5rem;
+    animation: logo-float infinite 3s ease-in-out;
+    display: block;
+    margin: 0rem auto;
+    padding-left: 0.5rem;
+}
+
+li {
+    list-style: none;
+}

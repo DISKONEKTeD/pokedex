@@ -1,0 +1,28 @@
+@import '../../css/variables.scss';
+
+.background {
+  background-color: $quinary;
+  height: 8rem;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.logo {
+  height: 100%;
+  animation: logo-float infinite 3s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes logo-float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+}

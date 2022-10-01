@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.ul {
+    list-style: none;
+}
+
+.li {
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.li .label {
+    font-weight: 600;
+}
+
+.types {
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    text-transform: capitalize;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+
+.ability {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 1.6rem 0 0 0;
+    text-transform: capitalize;
+}
+
+.abilities {
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
