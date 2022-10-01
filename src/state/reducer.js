@@ -3,25 +3,6 @@ import { combineReducers } from 'redux';
 import { createReducer, createSlice, nanoid, createAsyncThunk } from '@reduxjs/toolkit'
 import { useGetPokemonByIdQuery } from '../services/pokeapi'
 import _ from "lodash"
-// import {
-//     getAllRequest,
-//     getAllSuccess,
-//     getAllError
-// } from "actions.js"
-
-// const initialAllState = { pokemon: null, isLoading: true };
-
-// const isLoading = createReducer(false, {
-//     [getAllRequest]: () => true,
-//     [getAllSuccess]: () => false,
-//     [getAllError]: () => false,
-// })
-
-
-// export default combineReducers({
-//     // pokemon,
-//     isLoading,
-//   });
 
 const initialState = {
     all: [],
