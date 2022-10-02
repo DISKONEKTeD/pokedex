@@ -1,10 +1,10 @@
 {
   "name": "pokedex",
   "version": "1.0.0",
-  "homepage": "http://DISKONEKTeD.github.io/pokedex",
+  "homepage": "http://DISKONEKTeD.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DISKONEKTeD/pokedex-of-san-diego.git"
+    "url": "https://github.com/DISKONEKTeD/pokedex.git"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
