@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import { selectPokemon } from '../../state/reducer'
+import { selectPokemon } from '../../state/selectors'
 import Avatar from '../../components/Avatar'
 import Info from '../../components/Info'
 import styles from './Detail.module.scss'

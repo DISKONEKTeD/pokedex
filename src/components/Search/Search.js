@@ -1,7 +1,7 @@
 import { useState } from "react"
 import styles from './Search.module.scss'
 import glass from '../../assets/glass.png'
-import { selectPokemon } from "../../state/reducer"
+import { selectPokemon } from "../../state/selectors"
 import { useSelector } from 'react-redux'
 
 const Search = ({setSearchResult}) => {

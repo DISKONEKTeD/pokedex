@@ -1,6 +1,5 @@
 import axios from 'axios'
-import { combineReducers } from 'redux';
-import { createReducer, createSlice, nanoid, createAsyncThunk } from '@reduxjs/toolkit'
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import { useGetPokemonByIdQuery } from '../services/pokeapi'
 import _ from "lodash"
 
@@ -26,9 +25,7 @@ export const fetchPokemonAsync = createAsyncThunk(
 export const pokemonSlice = createSlice({
     name: 'pokemon',
     initialState,
-    // The `reducers` field lets us define reducers and generate associated actions
     reducers: {
-      // Use the PayloadAction type to declare the contents of `action.payload`
       load: (state, action) => {
         state.all = action.payload;
       },
@@ -44,8 +41,5 @@ export const pokemonSlice = createSlice({
         });
     },
   });
-
-  export const selectPokemon = (state) => state.pokemon.all
-  export const selectPokemonLoading = (state) => state.pokemon.loading
 
   export default pokemonSlice.reducer;

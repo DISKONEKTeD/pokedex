@@ -6,7 +6,8 @@ import Navigation from './../../components/Navigation'
 import Search from '../../components/Search'
 import Loader from '../../components/Loader'
 import Grid from '../../components/Grid'
-import { fetchPokemonAsync, selectPokemon, selectPokemonLoading } from '../../state/reducer'
+import { fetchPokemonAsync } from '../../state/reducer'
+import { selectPokemon, selectPokemonLoading } from '../../state/selectors'
 
 const Home = () => {
   const dispatch = new useDispatch()
